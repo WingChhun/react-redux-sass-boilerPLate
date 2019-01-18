@@ -1,0 +1,23 @@
+@import "./abstracts//variables.scss";
+@import "./abstracts//palette.scss";
+@import "./abstracts//media_queries.scss";
+@import "./abstracts//mixins.scss";
+
+
+
+*::before, *::after
+, html {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body {
+    margin: 0 ;
+    padding:0;
+    box-sizing:border-box;
+}
+
+a {
+    text-decoration:none;
+}
